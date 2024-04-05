@@ -5,13 +5,12 @@ This is a web application that allows users to calculate the prices of European 
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Technologies Used](#technologies-used)
-3. [File Structure](#file-structure)
-4. [Function Descriptions](#function-descriptions)
+3. [Function Descriptions](#function-descriptions)
    - [Backend (app.py)](#backend-apppf)
    - [Frontend (index.html, styles.css, script.js)](#frontend-indexhtmlstaticsscss-scriptjs)
-5. [How to Run the Code](#how-to-run-the-code)
-6. [Contributing](#contributing)
-7. [License](#license)
+4. [How to Run the Code](#how-to-run-the-code)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Project Overview
 ![Option Pricing Web Application](./OptionPricing.gif)
@@ -32,24 +31,6 @@ The calculated option prices are then displayed in the user interface.
 - **NumPy**: A Python library used for numerical computations, including the Black-Scholes and Binomial option pricing formulas.
 - **SciPy**: A Python library used for the normal cumulative distribution function in the Black-Scholes model.
 - **yFinance**: A Python library used for fetching historical stock data.
-
-## File Structure
-The project has the following file structure:
-
-'''
-option-pricing-app/
-├── app.py
-├── templates/
-│ └── index.html
-└── static/
-├── styles.css
-└── script.js
-'''
-
-- `app.py`: The main Flask application file that handles the backend logic.
-- `templates/index.html`: The HTML template for the user interface.
-- `static/styles.css`: The CSS file for styling the user interface.
-- `static/script.js`: The JavaScript file that handles the client-side functionality.
 
 ## Function Descriptions
 
