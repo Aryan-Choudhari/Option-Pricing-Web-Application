@@ -137,6 +137,10 @@ To run the Option Pricing Web Application, follow these steps:
 
 That's it! The Option Pricing Web Application is now running, and you can use it to calculate option prices based on the user's input.
 
+## Contribution
+
+The frontend to the project has been contributed to by Ayush Aswal(https://github.com/Ayush583-Aswal).
+
 ## Contributing
 
 We welcome contributions to the Option Pricing Web Application project! If you'd like to contribute, please follow these guidelines:
