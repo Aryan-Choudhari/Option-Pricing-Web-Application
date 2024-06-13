@@ -9,7 +9,7 @@ import math
 app = Flask(__name__)
 CORS(app)
 
-def fetch_historical_data(ticker_symbol, period='90d'):
+def fetch_historical_data(ticker_symbol, period='252d'):
     try:   
         ticker = yf.Ticker(ticker_symbol)
         fulldf = ticker.history(period=period)
