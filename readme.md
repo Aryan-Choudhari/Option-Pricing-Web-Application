@@ -36,9 +36,9 @@ The calculated option prices are then displayed in the user interface.
 
 ### Backend (app.py)
 
-1. **fetch_historical_data(ticker_symbol, period='90d')**:
+1. **fetch_historical_data(ticker_symbol, period='252d')**:
    - This function uses the `yfinance` library to fetch the historical closing prices for the given ticker symbol and time period.
-   - It takes two parameters: `ticker_symbol` (the stock ticker) and `period` (the time period for which to fetch the data, defaulting to '90d' or 90 days).
+   - It takes two parameters: `ticker_symbol` (the stock ticker) and `period` (the time period for which to fetch the data, defaulting to '252d' or 252 days).
    - The function returns the closing price data as a Pandas DataFrame if the data is successfully fetched, or `None` if an exception occurs.
 
 2. **get_spot_price(underlying)**:
