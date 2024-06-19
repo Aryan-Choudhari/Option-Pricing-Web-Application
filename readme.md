@@ -9,8 +9,9 @@ This is a web application that allows users to calculate the prices of European 
    - [Backend (app.py)](#backend-apppf)
    - [Frontend (index.html, styles.css, script.js)](#frontend-indexhtmlstaticsscss-scriptjs)
 4. [How to Run the Code](#how-to-run-the-code)
-5. [Contributing](#contributing)
-6. [License](#license)
+5. [Contribution](#contribution)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ## Project Overview
 ![Option Pricing Web Application](./OptionPricing.gif)
